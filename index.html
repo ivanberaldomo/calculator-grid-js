@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="image17.png">
+    <script src="script.js" defer></script>
+    <title>calculator.grid.js</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="display">
+                <div data-previous-operand class="old"></div>
+                <div data-current-operand class="new"></div>
+            </div>
+            <button data-all-clear>AC</button>
+            <button data-clear-entry>CE</button>
+            <button data-operation>%</button>
+            <button data-operation>÷</button>
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button data-operation>*</button>
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <button data-operation>-</button>
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <button data-operation>+</button>
+            <button data-number>.</button>
+            <button data-number>0</button>
+            <button data-operation="±">±</button>
+            <button data-equals>=</button>
+        </div>
+        <table class="table" id="history-table">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Operation</th>
+                    <th>Result</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
